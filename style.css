@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    background-color: rgb(67, 211, 171);
+    color: white;
+    border: 1px solid black;
+}
+.navbar-brand {
+    font-size: 25px;
+}
+
+.student-form{
+    
+    padding: 30px;
+    padding-left: 45px;
+    font-size: 15px;
+}
+.wrapper {
+    display: flex;
+    margin-top: 20px;
+  }
+   
+  .left-side { width: 40%; }
+  .right-side { flex-grow: 1; } 
+  .left-side, .right-side { padding: 5px; }
+   
+  .left-side { border-right: 3px solid rgb(67, 211, 171); }
+.btn{
+    margin: 0px 10px;
+
+}
+.form-check-input{
+    margin: 5px;
+}
+.footer{
+    background-color: rgb(67, 211, 171);
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    margin-top: 55px;  
+    border: 1px solid black;
+}
+.table-image{
+    width: 90%;
+    padding: 20px;
+    border: 2px solid rgb(164, 199, 68);
+}
+.table-image 
+    td, th {
+      vertical-align: middle;
+
+  }
+ .table-image thead{
+    background-color: rgb(164, 199, 68);
+    color: white;
+    font-size: 16px;
+}
+.table td img{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.enroll{
+    padding-top: 20px;
+} 
+.enroll h4{
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    font-weight: bold;
+}
+.table-image tbody p,span{
+    font-size: 12px;
+    padding: 5px;
+}
+tr:nth-child(even) {
+    background-color: rgb(235, 242, 211)
+    ;
+  } 
